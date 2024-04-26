@@ -2,45 +2,102 @@
 using System.Collections.Immutable;
 using System.Globalization;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 
 namespace DataStructure
 {
-    internal class Array
+    class Node
     {
-        static void Main(string[] args)
+        int data { get; set; }
+        Node next { get; set; }
+
+        Node(int data)
         {
-            int[] squares = new int[] { 1, 4, 9, 16, 25 };
-
-            Console.WriteLine("Original array:");
-            foreach (int i in squares)
+            this.data = data;
+            this.next = null;
+        }
+        internal class Stack
+        {
+            Node top;
+            Stack()
             {
-                Console.WriteLine(i);
+                top = null;
             }
-            Console.WriteLine("Minimun element "+squares.Min());
-            Console.WriteLine("Maximum element "+squares.Max());
-            Console.WriteLine("Length "+ squares.Length);
-            Console.WriteLine("Rank "+squares.Rank);
-
-            squares = squares.Reverse().ToArray();
-
-            Console.WriteLine("Reversed array:");
-            foreach (int j in squares)
+            public Boolean isEmpty()
             {
-                Console.WriteLine(j);
+                return top == null;
             }
-
-            int[] numbers1 = { 4, 2, 7, 1, 9 };
-            int numberToFind = 7;
-            int foundNumber = numbers1.FirstOrDefault(n => n == numberToFind);
-
-            if (foundNumber != 0)
+            public void push(int data)
             {
-                Console.WriteLine($"Found number: {foundNumber}");
+                Node node = new Node(data);
+                if (isEmpty())
+                {
+                    top = node;
+                }
+                else
+                {
+                    node.next = top;
+                    top=node;
+                }
             }
-            else
+            public int pop()
             {
-                Console.WriteLine("Number not found");
+                if (isEmpty())
+                {
+                    return -1;
+                }
+                int element = top.data;
+                top = top.next;
+                return element;
+            }
+            public int peek()
+            {
+                if (isEmpty())
+                {
+                    return -1;
+                }
+                return top.data;
+            }
+            public void printstack()
+            {
+                if (isEmpty())
+                {
+                    Console.WriteLine("Stack is empty");
+                }
+                Node current = top;
+                while (current != null)
+                {
+                    Console.WriteLine(current.data);
+                    current = current.next;
+                }
+            }
+            static void Main(string[] args)
+            {
+                Stack stack = new Stack();
+                stack.push(1);
+                Console.WriteLine("Pushed 1 ");
+                stack.push(2);
+                Console.WriteLine("Pushed 2");
+                stack.push(3);
+                Console.WriteLine("Pushed 3");
+                stack.push(4);
+                Console.WriteLine("Pushed 4");
+                Console.WriteLine("Stack elements : ");
+                stack.printstack();
+                Console.WriteLine("Removed element : ");
+                Console.WriteLine(stack.pop());
+                Console.WriteLine("Stack elements : ");
+                stack.printstack();
+                Console.WriteLine("Topmost element : ");
+                Console.WriteLine(stack.peek());
+                Console.WriteLine("Stack elements : ");
+                stack.printstack();
+                Console.WriteLine("Removed element : ");
+                Console.WriteLine(stack.pop());
+                Console.WriteLine("Stack elements : ");
+                stack.printstack();
             }
         }
     }
 }
+
