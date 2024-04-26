@@ -4,42 +4,42 @@ using System.Globalization;
 using System.Linq;
 
 namespace DataStructure
-{
-    internal class Array
+{ 
+    internal class Array1
     {
         static void Main(string[] args)
         {
-            int[] squares = new int[] { 1, 4, 9, 16, 25 };
+            int[] number = new int[] { 11, 4, 90, 16, 25 };
 
             Console.WriteLine("Original array:");
-            foreach (int i in squares)
+            foreach (int i in number)
             {
                 Console.WriteLine(i);
             }
-            Console.WriteLine("Minimun element "+squares.Min());
-            Console.WriteLine("Maximum element "+squares.Max());
-            Console.WriteLine("Length "+ squares.Length);
-            Console.WriteLine("Rank "+squares.Rank);
+            Console.WriteLine("Minimun element "+number.Min());
+            Console.WriteLine("Maximum element "+number.Max());
+            Console.WriteLine("Length "+ number.Length);
+            Console.WriteLine("Rank "+number.Rank);
 
-            squares = squares.Reverse().ToArray();
-
+            Array.Reverse(number);
             Console.WriteLine("Reversed array:");
-            foreach (int j in squares)
+            foreach (int j in number)
             {
                 Console.WriteLine(j);
             }
 
-            int[] numbers1 = { 4, 2, 7, 1, 9 };
-            int numberToFind = 7;
-            int foundNumber = numbers1.FirstOrDefault(n => n == numberToFind);
-
-            if (foundNumber != 0)
+            Array.Sort(number);
+            Console.WriteLine("Sorted array:");
+            foreach (int j in number)
             {
-                Console.WriteLine($"Found number: {foundNumber}");
+                Console.WriteLine(j);
             }
-            else
+            Console.WriteLine(Array.IndexOf(number, 4));
+            Array.Clear(number);
+            Console.WriteLine("Cleared array:");
+            foreach (int j in number)
             {
-                Console.WriteLine("Number not found");
+                Console.WriteLine(j);
             }
         }
     }
