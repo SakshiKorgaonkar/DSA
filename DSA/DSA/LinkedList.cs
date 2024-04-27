@@ -43,6 +43,7 @@ namespace DSA
             Console.WriteLine("---------------------------------");
             list.Clear();
             print(list);
+
         }
     }
 }

@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_day3\\DSA\\DSA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74C4ED6D-D7F2-47F1-A0C3-A772DF3F4EFF}|DSA\\DSA.csproj|c:\\users\\dell\\onedrive - here global b.v\\desktop\\cdac\\bridgelabz_day3\\dsa\\dsa\\dsa\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74C4ED6D-D7F2-47F1-A0C3-A772DF3F4EFF}|DSA\\DSA.csproj|solutionrelative:dsa\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{74C4ED6D-D7F2-47F1-A0C3-A772DF3F4EFF}|DSA\\DSA.csproj|c:\\users\\dell\\onedrive - here global b.v\\desktop\\cdac\\bridgelabz_day3\\dsa\\dsa\\dsa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74C4ED6D-D7F2-47F1-A0C3-A772DF3F4EFF}|DSA\\DSA.csproj|solutionrelative:dsa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{74C4ED6D-D7F2-47F1-A0C3-A772DF3F4EFF}|DSA\\DSA.csproj|c:\\users\\dell\\onedrive - here global b.v\\desktop\\cdac\\bridgelabz_day3\\dsa\\dsa\\dsa\\lists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C4ED6D-D7F2-47F1-A0C3-A772DF3F4EFF}|DSA\\DSA.csproj|solutionrelative:dsa\\lists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{74C4ED6D-D7F2-47F1-A0C3-A772DF3F4EFF}|DSA\\DSA.csproj|c:\\users\\dell\\onedrive - here global b.v\\desktop\\cdac\\bridgelabz_day3\\dsa\\dsa\\dsa\\queueimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74C4ED6D-D7F2-47F1-A0C3-A772DF3F4EFF}|DSA\\DSA.csproj|solutionrelative:dsa\\queueimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C4ED6D-D7F2-47F1-A0C3-A772DF3F4EFF}|DSA\\DSA.csproj|c:\\users\\dell\\onedrive - here global b.v\\desktop\\cdac\\bridgelabz_day3\\dsa\\dsa\\dsa\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C4ED6D-D7F2-47F1-A0C3-A772DF3F4EFF}|DSA\\DSA.csproj|solutionrelative:dsa\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -32,7 +36,7 @@
               "RelativeDocumentMoniker": "DSA\\QueueImplementation.cs",
               "ToolTip": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_day3\\DSA\\DSA\\DSA\\QueueImplementation.cs",
               "RelativeToolTip": "DSA\\QueueImplementation.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwCsAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T12:44:20.716Z",
               "IsPinned": true,
@@ -40,26 +44,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Lists.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_day3\\DSA\\DSA\\DSA\\Lists.cs",
+              "RelativeDocumentMoniker": "DSA\\Lists.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_day3\\DSA\\DSA\\DSA\\Lists.cs",
+              "RelativeToolTip": "DSA\\Lists.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwBgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T07:13:34.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LinkedList.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_day3\\DSA\\DSA\\DSA\\LinkedList.cs",
               "RelativeDocumentMoniker": "DSA\\LinkedList.cs",
               "ToolTip": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_day3\\DSA\\DSA\\DSA\\LinkedList.cs",
               "RelativeToolTip": "DSA\\LinkedList.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAABDAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T05:35:24.979Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_day3\\DSA\\DSA\\DSA\\Program.cs",
               "RelativeDocumentMoniker": "DSA\\Program.cs",
               "ToolTip": "C:\\Users\\DELL\\OneDrive - HERE Global B.V\\Desktop\\CDAC\\BridgeLabz_day3\\DSA\\DSA\\DSA\\Program.cs",
               "RelativeToolTip": "DSA\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAwwA8AAAAfAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAwBEAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T06:43:54.393Z",
               "EditorCaption": ""
