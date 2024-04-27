@@ -10,8 +10,10 @@ namespace DataStructure
     {
         static void Main(string[] args)
         {
-            QueueImplementation queueImplementation = new QueueImplementation();
-            queueImplementation.Menu();
+            /*QueueImplementation queueImplementation = new QueueImplementation();
+            queueImplementation.Menu();*/
+            LinkedList linkedList = new LinkedList();
+            linkedList.Menu1();
         }
     }
 }
