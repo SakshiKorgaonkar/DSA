@@ -13,9 +13,12 @@ namespace DSA
             /*QueueImplementation queueImplementation = new QueueImplementation();
             queueImplementation.Menu();
             LinkedList linkedList = new LinkedList();
-            linkedList.Menu1();*/
+            linkedList.Menu1();
             Lists lists = new Lists();
-            lists.Menu();
+            lists.Menu();*/
+            Dictionary1 dictionary1 = new Dictionary1();
+            dictionary1.Menu();
+
         }
     }
 }
