@@ -24,7 +24,7 @@ namespace DSA
                 int result = num / den;
             }
         }
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             try
             {
