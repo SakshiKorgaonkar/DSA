@@ -8,7 +8,7 @@ namespace DSA
 {
     internal class SortedSet1
     {
-        static void Main(string[] args)
+        static void Main4(string[] args)
         {
             SortedSet<int> numbers = new SortedSet<int>();
 
