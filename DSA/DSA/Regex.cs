@@ -9,7 +9,7 @@ namespace DSA
 {
     internal class Regex1
     {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
             Console.WriteLine("Enter phone number : ");
             string number=Console.ReadLine();
