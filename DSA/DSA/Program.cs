@@ -8,7 +8,7 @@ namespace DSA
 { 
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             /*QueueImplementation queueImplementation = new QueueImplementation();
             queueImplementation.Menu();
@@ -19,10 +19,9 @@ namespace DSA
             Dictionary1 dictionary1 = new Dictionary1();
             dictionary1.Menu();
             Hashset1 hashset1 = new Hashset1();
-            hashset1.Menu();*/
+            hashset1.Menu();
             InbuiltException inbuiltException = new InbuiltException();
-            inbuiltException.Menu();
-
+            inbuiltException.Menu();*/
         }
     }
 }
