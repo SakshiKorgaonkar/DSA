@@ -17,9 +17,11 @@ namespace DSA
             Lists lists = new Lists();
             lists.Menu();
             Dictionary1 dictionary1 = new Dictionary1();
-            dictionary1.Menu();*/
+            dictionary1.Menu();
             Hashset1 hashset1 = new Hashset1();
-            hashset1.Menu();
+            hashset1.Menu();*/
+            InbuiltException inbuiltException = new InbuiltException();
+            inbuiltException.Menu();
 
         }
     }
